@@ -132,5 +132,21 @@ a {
     flex-direction: column;
     flex: 1;
     background: #E5E7EB;
-    
+    padding: 115px 175px;
+}
+
+.testimonial {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    font-family: "Roboto", serif;
+}
+
+.thor {
+    text-align: right;
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
 }
