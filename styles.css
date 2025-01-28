@@ -10,8 +10,8 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
-    padding: 10px 175px 100px 175px;
+    background: #1F2937;
+    padding: 10px 175px 150px 175px;
     font-family: "Roboto", serif;
     flex: 1;
 }
@@ -58,7 +58,6 @@ button {
 }
 
 .image-placeholder {
-    width: 350px;
     border: 2px solid black;
     display: flex;
     justify-content: center;
@@ -201,4 +200,15 @@ a {
     border: 1px solid white;
     color: white;
     padding: 10px 40px;
+}
+
+/* Footer section */
+
+.footer {
+    display: flex;
+    height: 72px;
+    background: #1F2937;
+    font-family: "Roboto", serif;
+    justify-content: center;
+    align-items: center;
 }
